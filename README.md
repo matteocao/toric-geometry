@@ -11,7 +11,7 @@ and run it as jupyter notebook from the root foldedr by
 ```
 docker run -v "${PWD}:/home/sage/volume" -p8889:8888 sagemath/sagemath:latest sage-jupyter
 ```
-Visit `http://localhost:8889` to start playing with the notebook. Also, check your terminal to get the *token*!
+Visit `http://localhost:8889` to start playing with the notebook (you will find it in the `/volume` folder). Also, check your terminal to get the *token*!
 
 ## Run and experiment
 
